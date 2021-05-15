@@ -31,7 +31,18 @@ let tuple = 2,3,4,5
 let two, _, _, _= tuple
 
 type User = { Username: string; Password: string; Email: string }
-let myUser = { Username= ""; Password= ""; Email= ""}
+let myUser = { Username= "Frois"; Password= "123"; Email= "frois.dev@gmail.com"}
+
+type Temperature = 
+    | DegreesC of float
+    | DegreesF of float
+let temp = DegreesC 23.5
+
+type Employee = 
+    | Worker of User
+    | Managers of Employee list
+
+let worker = Worker myUser
 
 // Define a function to construct a message to print
 let from whom =
@@ -51,6 +62,9 @@ let main argv =
     printfn "A? %s" pm
     printfn "I'm a two from tuple: %i" two
     printfn "My user: %A" myUser
+    printfn "temperature now: %A" temp
+    printfn "se a classe operária tudo produz a ela tudo pertence %A" worker
+
 
     0 // return an integer exit code
 
