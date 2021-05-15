@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bw7PFroi8e4l6ZCq5JkJQfLw2OrW1yeZqFfcA7L73L2Ae2yq8WUYPtFdhG6NnXC7SpW2BqREqSWUSQrD9RaXyw==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\twitch\\fsharp-drafts\\fsharpsyntaxinsixteenseconds\\fsharpsyntaxinsixteenseconds.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas.frois\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
