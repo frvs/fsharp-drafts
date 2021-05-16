@@ -44,6 +44,9 @@ type Employee =
 
 let worker = Worker myUser
 
+do printfn "Testing do"
+do 1+1 |> ignore
+
 // Define a function to construct a message to print
 let from whom =
     sprintf "from %s" whom

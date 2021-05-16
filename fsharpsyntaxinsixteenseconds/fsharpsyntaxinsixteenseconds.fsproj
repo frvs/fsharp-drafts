@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="AsyncStuff.fs" />
+    <Compile Include="PatternMatching.fs" />
+    <Compile Include="PatternMatchingWithUnionTypes.fs" />
+    <Compile Include="Exceptions.fs" />
+    <Compile Include="UnionTypes.fs" />
+    <Compile Include="Folds.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
